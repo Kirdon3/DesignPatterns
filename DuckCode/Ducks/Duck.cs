@@ -30,5 +30,15 @@ namespace DuckCode
         {
             Console.WriteLine("All ducks fly, even decoys!");
         }
+
+        public void SetFlyBehavior(IFlyBehavior fb)
+        {
+            this.flyBehavior = fb;
+        }
+
+        public void SetQuackBehavior(IQuackBehavior qb)
+        {
+            this.quackBehavior = qb;
+        }
     }
 }
