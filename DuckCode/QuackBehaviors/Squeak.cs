@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DuckCode.QuackBehaviors
 {
-    class Program
+    public class Squeak : IQuackBehavior
     {
-        static void Main(string[] args)
+        public void quack()
         {
-            string test = "asdef5";
-            Console.WriteLine(test);
+            Console.WriteLine("Squeak");
         }
     }
 }

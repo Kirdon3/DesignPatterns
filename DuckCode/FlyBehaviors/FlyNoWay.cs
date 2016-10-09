@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns
+namespace DuckCode.FlyBehaviors
 {
-    class Program
+    public class FlyNoWay : IFlyBehavior
     {
-        static void Main(string[] args)
+        public void fly()
         {
-            string test = "asdef5";
-            Console.WriteLine(test);
+            Console.WriteLine("I can't fly");
         }
     }
 }
