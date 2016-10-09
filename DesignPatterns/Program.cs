@@ -10,7 +10,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            string test = "asd5";
+            string test = "asdef5";
             Console.WriteLine(test);
         }
     }
